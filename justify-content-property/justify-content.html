@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* justify-content,,,,
+        -display:flex;
+    *justify-content: center; 
+     *justify-content: space-between;
+     *justify-content: flex-start ;
+     *justify-content: flex-end;
+     *justify-content:space-evenly;
+     *justify-content:space-around */
+        body{
+            
+            background-color: aqua;
+            margin: 0%;
+             padding:  15px; 
+        }
+
+#mydiv div{
+    
+    margin:0%;
+    width:50px;
+    height:50px;
+    
+}
+#mydiv{
+    
+    height:250px;
+    width:250px;
+    background-color: white ;
+     display: flex;
+     justify-content: space-evenly ;  
+    /* justify-content: center; */
+    /* justify-content: space-between;*/
+}  
+#newdiv div{
+    width:50px;
+    height:50px;
+    /* display: flex; */
+}
+
+#newdiv{
+    height:200px;
+    width:200px;
+    background-color: white ;
+     display: flex;  
+     justify-content:space-between ;  
+    /* justify-content: flex-start ;*/
+    /* justify-content: flex-end; */
+
+
+} 
+    </style>
+</head>
+<body>
+    <h1>justify-content-property</h1>
+    <div id="mydiv">
+    <div style="background:cornflowerblue">1</div>
+    <div style="background:orangered">2</div>
+    <div style="background:green">3</div>
+    </div>
+
+    <div>
+<h1>justify-content-property</h1>
+    <div id="newdiv">
+    <div style="background:cornflowerblue"></div>
+    <div style="background:orangered"></div>
+    <div style="background:green"></div>
+    </div>
+
+    </div>
+</body>
+</html>
